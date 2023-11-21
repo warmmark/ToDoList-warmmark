@@ -1,4 +1,6 @@
 body {
+    font-style: bold;
+    font-size: large;
     display: flex;
     margin: 0;
 	padding: 0;
@@ -8,54 +10,51 @@ body {
 }
 
 .ToDoTable {
-    margin: 40px;
     width: 100%;
 }
 
 th {
     border: none;
     border-radius: 5%;
-    background-color: #985454;
+    height: 5em;
+    width: 20em;
+    background-color: #212121;
 }
 
 .time {
     border: none;
     border-radius: 5%;
-    background-color: #585858;
+    height: 5em;
+    width: 20em;
+    background-color: #555555;
 }
 
-.table-head {
+.days {
     border: none;
     border-radius: 5%;
-    background-color: #985454;
+    height: 5em;
+    width: 20em;
+    background-color: #555555;
 }
 
-.sleep {
+.to-do-elements {
     border: none;
     border-radius: 5%;
-    background-color: #5c1f80;
+    height: 5em;
+    width: 20em;
+    background-color: #a51c1c;
 }
 
-.games {
-    border: none;
-    border-radius: 5%;
-    background-color: #ffb300;
+.to-do-elements:hover {
+    background-image: linear-gradient(to right, #ffb300 , #a51c1c);
 }
 
-.road {
-    border: none;
-    border-radius: 5%;
-    background-color: #1f6380;
+.college:hover {
+    background-position: center;
+    background-image: url('goes_online-730.jpg');
 }
 
-.pre-road {
-    border: none;
-    border-radius: 5%;
-    background-color: #7e57c2;
-}
-
-.college {
-    border: none;
-    border-radius: 5%;
-    background-color: #801f2f;
+.dogs:hover {
+    background-position: center;
+    background-image: url('seamless-pattern-with-paw-print-and-bones-on-brown-background-animal-print-vector-illustration_648830-158.avif')
 }
