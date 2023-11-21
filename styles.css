@@ -1,5 +1,5 @@
 body {
-    font-style: bold;
+    font-family: 'Courier New', Courier, monospace;
     font-size: large;
     display: flex;
     margin: 0;
@@ -50,6 +50,7 @@ th {
 }
 
 .college {
+    color: black;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -57,6 +58,7 @@ th {
 }
 
 .dogs {
+    color: black;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
