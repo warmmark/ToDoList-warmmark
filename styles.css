@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    margin: 0;
+	padding: 0;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.ToDoTable {
+    margin: 40px;
+    width: 100%;
+}
+
+th {
+    border: 3px solid red;
+}
+
+.time {
+    border: 3px solid red;
+}
+
+.table-head {
+    border: 3px solid red;
+}
+
+.sleep {
+    border: none;
+    border-radius: 5%;
+    background-color: #5c1f80;
+}
+
+.games {
+    border: none;
+    border-radius: 5%;
+    background-color: #ffb300;
+}
+
+.road {
+    border: none;
+    border-radius: 5%;
+    background-color: #1f6380;
+}
+
+.pre-road {
+    border: none;
+    border-radius: 5%;
+    background-color: #7e57c2;
+}
+
+.college {
+    border: none;
+    border-radius: 5%;
+    background-color: #801f2f;
+}
