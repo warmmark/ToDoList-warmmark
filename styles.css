@@ -13,15 +13,21 @@ body {
 }
 
 th {
-    border: 3px solid red;
+    border: none;z
+    border-radius: 5%;
+    background-color: #985454;
 }
 
 .time {
-    border: 3px solid red;
+    border: none;
+    border-radius: 5%;
+    background-color: #585858;
 }
 
 .table-head {
-    border: 3px solid red;
+    border: none;z
+    border-radius: 5%;
+    background-color: #985454;
 }
 
 .sleep {
