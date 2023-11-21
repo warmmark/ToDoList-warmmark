@@ -49,12 +49,30 @@ th {
     background-image: linear-gradient(to right, #ffb300 , #a51c1c);
 }
 
-.college:hover {
+.college {
+    background-size: cover;
     background-position: center;
-    background-image: url('goes_online-730.jpg');
+    background-repeat: no-repeat;
+    background-image: url('images/goes_online-730.jpg');
+}
+
+.dogs {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('images/seamless-pattern-with-paw-print-and-bones-on-brown-background-animal-print-vector-illustration_648830-158.avif')
+}
+
+.college:hover {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('images/goes_online-730.jpg');
 }
 
 .dogs:hover {
+    background-size: cover;
     background-position: center;
-    background-image: url('seamless-pattern-with-paw-print-and-bones-on-brown-background-animal-print-vector-illustration_648830-158.avif')
+    background-repeat: no-repeat;
+    background-image: url('images/seamless-pattern-with-paw-print-and-bones-on-brown-background-animal-print-vector-illustration_648830-158.avif')
 }
