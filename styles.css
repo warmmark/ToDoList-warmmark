@@ -46,11 +46,11 @@ th {
 }
 
 .to-do-elements:hover {
+    transform: scale(1.2);
     background-image: linear-gradient(to right, #ffb300 , #a51c1c);
 }
 
 .college {
-    color: black;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,14 +58,21 @@ th {
 }
 
 .dogs {
-    color: black;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('images/seamless-pattern-with-paw-print-and-bones-on-brown-background-animal-print-vector-illustration_648830-158.avif')
 }
 
+.medicine {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('images/medical-pills-and-capsules-pharmacy-background_77417-1449.avif');
+}
+
 .college:hover {
+    transform: scale(1.2);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -73,8 +80,17 @@ th {
 }
 
 .dogs:hover {
+    transform: scale(1.2);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('images/seamless-pattern-with-paw-print-and-bones-on-brown-background-animal-print-vector-illustration_648830-158.avif')
+}
+
+.medicine:hover {
+    transform: scale(1.2);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('images/medical-pills-and-capsules-pharmacy-background_77417-1449.avif');
 }
