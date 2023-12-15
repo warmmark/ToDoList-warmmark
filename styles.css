@@ -9,14 +9,7 @@ body {
     background-color: black;
 }
 
-::placeholder {
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    color: gray;
-}
-
 .ToDoTable {
-    background-color: #222222;
     width: 100%;
 }
 
@@ -52,42 +45,9 @@ th {
     background-color: #a51c1c;
 }
 
-.college .child {
-    flex: 1;
-}
-
-.dogs .child {
-    flex: 1;
-}
-
-.medicine .child {
-    flex: 1;
-}
-
-.child::before {
-    content: "";
-    display: none;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.college:hover .child:before,
-.college:focus .child:before {
-    display: block;
-}
-
-.dogs:hover .child:before,
-.dogs:focus .child:before {
-    display: block;
-}
-
-.medicine:hover .child:before,
-.college:focus .child:before {
-    display: block;
+.to-do-elements:hover {
+    /*transform: scale(1.2);*/
+    /*background-image: linear-gradient(to right, #ffb300 , #a51c1c);*/
 }
 
 .college {
@@ -101,15 +61,31 @@ th {
     position: relative;
 }
 
+.college .child {
+    flex: 1;
+}
+
+.child::before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 73, 94, 0.75);
+}
+
+.college:hover .child:before,
+.college:focus .child:before {
+    display: block;
+}
+
 .dogs {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('images/seamless-pattern-with-paw-print-and-bones-on-brown-background-animal-print-vector-illustration_648830-158.avif');
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-    position: relative;
+    background-image: url('images/seamless-pattern-with-paw-print-and-bones-on-brown-background-animal-print-vector-illustration_648830-158.avif')
 }
 
 .medicine {
@@ -117,10 +93,6 @@ th {
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('images/medical-pills-and-capsules-pharmacy-background_77417-1449.avif');
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-    position: relative;
 }
 
 .college .child:hover {
@@ -131,7 +103,7 @@ th {
     background-image: url('images/seamless-background-from-a-set-of-digital-devices-vector-13831214.jpg');
 }
 
-.dogs .child:hover {
+.dogs:hover {
     transform: scale(1.2);
     background-size: cover;
     background-position: center;
@@ -139,7 +111,7 @@ th {
     background-image: url('images/seamless-pattern-with-paw-print-and-bones-on-brown-background-animal-print-vector-illustration_648830-158.avif')
 }
 
-.medicine .child:hover {
+.medicine:hover {
     transform: scale(1.2);
     background-size: cover;
     background-position: center;
