@@ -52,17 +52,6 @@ th {
     background-color: #a51c1c;
 }
 
-.college {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url('images/seamless-background-from-a-set-of-digital-devices-vector-13831214.jpg');
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-    position: relative;
-}
-
 .college .child {
     flex: 1;
 }
@@ -99,6 +88,17 @@ th {
 .medicine:hover .child:before,
 .college:focus .child:before {
     display: block;
+}
+
+.college {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('images/seamless-background-from-a-set-of-digital-devices-vector-13831214.jpg');
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: relative;
 }
 
 .dogs {
